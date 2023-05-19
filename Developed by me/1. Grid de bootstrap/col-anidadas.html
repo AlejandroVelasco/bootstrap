@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Columnas anidadas</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="other_css/col-anidadas.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="columna col-md-6">
+                    Columna #1
+                    <div class="row">
+                        <div class="col col-interior">
+                            Columna 1.1
+                        </div>
+                    
+                        <div class="col col-interior">
+                            Columna 1.2
+                        </div>
+                    </div>
+                </div>
+                <div class="columna col-md-6">
+                    Columna 2
+                    <div class="row justify-content-around">
+                        <div class="col-4 col-interior">
+                            Columna 2.1
+                        </div>
+                    
+                        <div class="col-4 col-interior">
+                            Columna 2.2
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    
+    </body>
+
+</html>

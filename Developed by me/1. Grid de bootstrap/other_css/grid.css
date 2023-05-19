@@ -1,0 +1,7 @@
+
+/* Estilos usados para grid.html */
+.row.grid > div{
+    background-color: #f2f2f2;
+    margin: 10px 0;
+}
+

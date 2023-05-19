@@ -1,0 +1,13 @@
+/* Estilos utilizados para col-automatic.html */
+.row div#uno{
+    background-color: #f2f2f2;
+}
+
+.row div#dos{
+    background-color: #dbdbdb;
+    padding: 0 20px;
+}
+
+.row div#tres{
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,19 @@
+div.container{
+    margin-top: 20px;
+}
+
+div.row{
+    background-color: #e8e8e8;
+}
+
+div.columna{
+    background-color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #4d5061;
+}
+
+div.col-interior{
+    background-color: #e8e8e8;
+    border: 1px solid #4d5061;
+    padding: 10px;
+}
